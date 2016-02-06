@@ -10,7 +10,7 @@
   ],
   "author": "alexandru topliceanu <alexandru.topliceanu@gmail.com> (http://alexandrutopliceanu.ro)",
   "hexo": {
-    "version": ""
+    "version": "3.1.0"
   },
   "dependencies": {
     "hexo": "3.1.0",
