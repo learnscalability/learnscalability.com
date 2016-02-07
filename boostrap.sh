@@ -4,7 +4,8 @@ set -e # stop script if error occurs.
 
 # Init
 sudo apt-get update -q
-#yes | sudo apt-get -qy upgrade
+
+sudo apt-get install -y git
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
