@@ -71,3 +71,18 @@ deploy:
   type: git
   repo: git@github.com:topliceanu/learnscalability.com.git
   branch: gh-pages
+
+# Minify html.
+# https://github.com/hexojs/hexo-html-minifier
+html_minifier:
+  removeCommets: true
+  collapseWhitespace: true
+  conservativeCollapse: true
+
+# Minify css.
+# https://github.com/hexojs/hexo-clean-css
+clean_css:
+
+# Minify js.
+# https://github.com/mishoo/UglifyJS2/
+uglify:

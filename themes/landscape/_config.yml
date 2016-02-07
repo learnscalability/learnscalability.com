@@ -6,10 +6,10 @@ rss: /atom.xml
 
 # Content
 excerpt_link: Read More
-fancybox: true
+fancybox: false
 
 # Sidebar
-sidebar: right
+sidebar: false
 widgets:
 - category
 - tag
@@ -18,7 +18,7 @@ widgets:
 - recent_posts
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-73423576-1
 favicon: /favicon.png
 twitter:
 google_plus:
