@@ -4,15 +4,15 @@
 
 # Site
 title: Learn Scalability
-subtitle:
-description: on distributed scalable systems
+subtitle: A blog on distributed scalable systems
+description: This covers a wide range of topics on distributed systems, algorithms, data structures, langauges, operating systems, networking, cloud, devops, etc.
 author: Alexandru Topliceanu
-language:
-timezone:
+language: en
+timezone: GMT
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://learnscalability.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:topliceanu/learnscalability.git
+  branch: gh-pages
