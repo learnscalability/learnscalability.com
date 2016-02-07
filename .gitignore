@@ -32,3 +32,4 @@ node_modules
 # Compiled splash (website) site.
 website/dist
 
+.deploy_git
