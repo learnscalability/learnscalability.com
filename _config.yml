@@ -86,3 +86,6 @@ clean_css:
 # Minify js.
 # https://github.com/mishoo/UglifyJS2/
 uglify:
+
+# Disqus Configuration
+disqus_shortname: learnscalabilitycom
