@@ -32,3 +32,7 @@ In this case, storing only the positions of the different bits in two consecutiv
 
 Gorilla is a case of good engineering: optimizing for the use-case. By carefull
 observations of the data set, engineers were able to exploit the format of the data and obtain very good compression and very fast encoding/decoding, based mostly on bit shifting.
+
+## Resources
+
+- http://www.vldb.org/pvldb/vol8/p1816-teller.pdf
