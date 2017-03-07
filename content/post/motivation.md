@@ -1,7 +1,7 @@
 +++
 date = "2017-03-05T08:18:27Z"
 title = "Motivation"
-draft = true
+draft = false
 +++
 
 `learnscalability.com` is a project that presents topics on distributed systems. The focus is on patterns, algorithms and tools that are the building blocks of modern scalable systems.
