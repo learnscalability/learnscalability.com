@@ -4,15 +4,19 @@ title = "Motivation"
 draft = true
 +++
 
-`learnscalability.com` is a project that presents topics on distributed systems. The focus is on patterns, algorithms and tools that are the building blocks of modern scalable systems. Along with that, there will be reviews of relevant research papers, analyses of existing open-source systems and solutions to design exercises.
+`learnscalability.com` is a project that presents topics on distributed systems. The focus is on patterns, algorithms and tools that are the building blocks of modern scalable systems.
+
+Along with that, there will be reviews of relevant research papers, analyses of existing open-source systems and solutions to design exercises.
 
 ## Motivation
 
 When designing scalable systems, the usual approach is to pick open source components that cover as much as possible of the specification. Then engineers write the code that glues these components together.
 
-The goal, on the one hand, is to minimize the amount of code written in-house because it has the potential of being buggy and insecure. On the other hand, the third party systems chosen need to be small in focus, well written, efficient, robust and secure in production.
+The goal, on the one hand, is to minimize the amount of code written in-house because it has the potential of being buggy and insecure. On the other hand, the third-party systems chosen need to be small in focus, well written, efficient, robust and secure in production.
 
-Because of this optimization challenge, picking off-the-shelf components needs to be coupled with a good understanding of how they work at a lower level of abstraction. The goal of this project is to decompose some of these solutions and distil the core ideas that power them. Armed with this knowledge, engineers are in a better position to decide whether to build or download.
+Because of this optimization challenge, picking off-the-shelf components needs to be coupled with a good understanding of how they work at a lower level of abstraction.
+
+The goal of this project is to decompose some of these solutions and distill the core ideas that power them. Armed with this knowledge, engineers are in a better position to decide whether to build or download.
 
 ## Approach
 
@@ -32,4 +36,4 @@ Each topic discussed will cover:
 
 While open source communities are excellent at exploring the solution space of a given problem, at producing battle-tested implementations and beautiful documentation, they tend to rush through the theoretical foundations behind the design decisions in their projects.
 
-This project hopes to convince communities of the value of spending effort to cover the core ideas in an accessible way.
+This project hopes to convince communities of the value of spending the extra effort to cover the core ideas in an accessible way.
