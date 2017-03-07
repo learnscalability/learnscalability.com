@@ -1,0 +1,7 @@
+author = "alexandru topliceanu"
+baseURL = "http://learnscalability.com"
+canonifyurls = true
+languageCode = "en-us"
+publishDir = "docs"
+title = "Learn Scalability"
+theme = "hemingway2"
