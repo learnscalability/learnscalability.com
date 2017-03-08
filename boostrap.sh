@@ -7,8 +7,8 @@ sudo apt-get update
 sudo apt-get install -y git
 
 # install go.
-wget https://storage.googleapis.com/golang/go1.7.4.linux-amd64.tar.gz
-tar -C /usr/local -xzvf go1.7.4.linux-amd64.tar.gz
+wget https://storage.googleapis.com/golang/go1.8.linux-amd64.tar.gz
+tar -C /usr/local -xzvf go1.8.linux-amd64.tar.gz
 mkdir -p $HOME/go/src $HOME/go/bin $HOME/go/pkg
 echo "export GOPATH=$HOME/go" >> $HOME/.bashrc
 echo "export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin" >> $HOME/.bashrc

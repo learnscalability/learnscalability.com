@@ -5,3 +5,17 @@ languageCode = "en-us"
 publishDir = "docs"
 title = "Learn Scalability"
 theme = "hemingway2"
+description = "Learn how to build scalable distributed systems"
+keywords = ["learn", "distributed", "systems", "design", "implementation"]
+
+[taxonomies]
+
+[params]
+
+[[params.social]]
+url = "https://github.com/learnscalability"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/learnscale"
+fa_icon = "fa-twitter"
