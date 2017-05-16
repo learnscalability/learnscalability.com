@@ -101,11 +101,7 @@ A word of caution about treating RPCs the same way as calls to local objects!
 As described in detail in this [paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.7628) this should be avoided.
 RPCs have dramatically different performance characteristics and failure modes. While they formally look very simple, there is a lot of complexity hidden behind the intuitive API.
 
+## TODO
 
-
-
-
-
-
-
-
+- add some benchmarking to the whole thing!
+- compare gRPC with net/rpc and encoding/gob
